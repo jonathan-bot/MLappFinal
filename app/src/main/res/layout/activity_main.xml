@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MainActivity">
+    <LinearLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/background"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ic_menu"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"/>
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchview"
+            app:iconifiedByDefault="false"
+            android:background="@drawable/background_search"
+            app:queryHint="Buscar en Mercado Libre"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="11"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="8dp">
+        </androidx.appcompat.widget.SearchView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_shopping_cart"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txterror"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="ERROR, NO SE CARGARON LOS DATOS"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:layout_below="@id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_margin="5dp"
+            android:id="@+id/recycler1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

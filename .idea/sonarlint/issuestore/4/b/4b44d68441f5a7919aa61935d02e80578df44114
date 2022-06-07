@@ -1,0 +1,4 @@
+
+t
+java:S1450"^Remove the "adapterProducto" field and declare it as a local variable in the relevant methods.(§Ù‘Ð
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Äóöýøÿÿÿÿ

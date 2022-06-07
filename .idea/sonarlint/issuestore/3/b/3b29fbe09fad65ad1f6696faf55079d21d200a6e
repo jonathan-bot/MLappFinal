@@ -1,0 +1,9 @@
+
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¥²¤
+c	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÁ¾Å
+†
+java:S1319%"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¨ôÚç
+‹
+java:S1319)"uThe type of the "attributes" object should be an interface such as "List" rather than the implementation "ArrayList".(”˜”ã
+f	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÁ¾Å
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Æ¬Ã©þÿÿÿÿ

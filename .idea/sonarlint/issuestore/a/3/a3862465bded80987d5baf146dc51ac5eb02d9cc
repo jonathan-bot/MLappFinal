@@ -1,0 +1,11 @@
+
+>
+java:S1948")Make "context" transient or serializable.(êİç
+B
+java:S1659G"'Declare "txtprecio" on a separate line.(ƒ€ôıÿÿÿÿ
+D
+java:S1659G")Declare "txtcantidad" on a separate line.(ƒ€ôıÿÿÿÿ
+“
+java:S1319!"}The type of the "productosArrayList" object should be an interface such as "List" rather than the implementation "ArrayList".(ˆä»Ú
+g	java:S101E"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ìÒéúÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥Û‘­şÿÿÿÿ
